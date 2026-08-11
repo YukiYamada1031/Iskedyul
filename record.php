@@ -1,4 +1,4 @@
-<?php
+<?php require_once('db.php');
 
 ?>
 
@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/record.css">
-  <link rel="icon" href="img/top.png">
+  <link rel="icon" href="img/icon.svg">
   <title>Document</title>
 </head>
 <body>
