@@ -1,4 +1,5 @@
-<?php require_once('db.php');
+<?php 
+require_once('db.php');
 
 $name = $_POST['name'];
 $email = $_POST['email'];
