@@ -25,12 +25,16 @@ require_once('db.php');
     </div>
 
     <form class='form' action='login_register.php' method='POST'>
-      <!-- メールアドレス -->
-      <label for='email'>メールアドレス</label>
-      <input id='email' name='email' required>
-      <!-- パスワード -->
-      <label for='password'>パスワード</label>
-      <input id='password' name='password' required>
+      <div class='form-group'>
+        <!-- メールアドレス -->
+        <label for='email'>メールアドレス</label>
+        <input id='email' name='email' required>
+      </div>
+      <div class='form-group'>
+        <!-- パスワード -->
+        <label for='password'>パスワード</label>
+        <input id='password' name='password' required>
+      </div>
       <!-- ログインボタン -->
       <input type='submit' value='ログイン'>
     </form>

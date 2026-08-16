@@ -25,18 +25,26 @@ require_once('db.php');
     </div>
 
     <form  class='form' action='new_login_register.php' method='POST'>
-      <!-- ユーザー名 -->
-      <label for='name'>ユーザー名</label>
-      <input id='name' name='name' required>
-      <!-- メールアドレス -->
-      <label for='email'>メールアドレス</label>
-      <input id='email' name='email' required>
-      <!-- パスワード -->
-      <label for='password'>パスワード</label>
-      <input for='password'name='password' required>
-      <!-- パスワード（確認用） -->
-      <label for='password_validate'>パスワード（確認用）</label>
-      <input id='password_validate' name='password_validate' required>
+      <div class='form-group'>
+        <!-- ユーザー名 -->
+        <label for='name'>ユーザー名</label>
+        <input id='name' name='name' required>
+      </div>
+      <div class='form-group'>
+        <!-- メールアドレス -->
+        <label for='email'>メールアドレス</label>
+        <input id='email' name='email' required>
+      </div>
+      <div class='form-group'>
+        <!-- パスワード -->
+        <label for='password'>パスワード</label>
+        <input for='password'name='password' required>
+      </div>
+      <div class='form-group'>
+        <!-- パスワード（確認用） -->
+        <label for='password_validate'>パスワード（確認用）</label>
+        <input id='password_validate' name='password_validate' required>
+      </div>
       <!-- 送信ボタン -->
       <input class='submit' type='submit' value='新規登録'>
     </form>
