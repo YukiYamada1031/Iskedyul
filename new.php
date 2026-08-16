@@ -16,6 +16,10 @@ require_once('db.php');
   <div class='container'>
     <div class='title'>新規登録</div>
 
+    <div class="check-mark">
+      <img src="img/check.svg">
+    </div>
+
     <div class='section-title'>
       <h2 class='main-title'>I-SKEDUL</h2>
       <p class='sub-title'>
@@ -28,22 +32,22 @@ require_once('db.php');
       <div class='form-group'>
         <!-- ユーザー名 -->
         <label for='name'>ユーザー名</label>
-        <input id='name' name='name' required>
+        <input id='name' name='name' placeholder="deborah mae viador delacruze" required>
       </div>
       <div class='form-group'>
         <!-- メールアドレス -->
         <label for='email'>メールアドレス</label>
-        <input id='email' name='email' required>
+        <input id='email' name='email' placeholder="deborah@gmail.com" required>
       </div>
       <div class='form-group'>
         <!-- パスワード -->
         <label for='password'>パスワード</label>
-        <input for='password'name='password' required>
+        <input for='password'name='password' placeholder="major13yy" required>
       </div>
       <div class='form-group'>
         <!-- パスワード（確認用） -->
-        <label for='password_validate'>パスワード（確認用）</label>
-        <input id='password_validate' name='password_validate' required>
+        <label for='password_validate'>パスワード（確認）</label>
+        <input id='password_validate' name='password_validate' placeholder="major13yy" required>
       </div>
       <!-- 送信ボタン -->
       <input class='submit' type='submit' value='新規登録'>

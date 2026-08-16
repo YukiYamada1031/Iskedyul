@@ -16,6 +16,10 @@ require_once('db.php');
   <div class='container'>
     <div class='title'>ログイン</div>
 
+    <div class='check-mark'>
+      <img src="img/check.svg">
+    </div>
+
     <div class='section-title'>
       <h2 class='main-title'>I-SKEDUL</h2>
       <p class='sub-title'>
@@ -28,12 +32,12 @@ require_once('db.php');
       <div class='form-group'>
         <!-- メールアドレス -->
         <label for='email'>メールアドレス</label>
-        <input id='email' name='email' required>
+        <input id='email' name='email' placeholder="deborah@gmail.com" required>
       </div>
       <div class='form-group'>
         <!-- パスワード -->
         <label for='password'>パスワード</label>
-        <input id='password' name='password' required>
+        <input id='password' name='password' placeholder="major13yy" required>
       </div>
       <!-- ログインボタン -->
       <input type='submit' value='ログイン'>
