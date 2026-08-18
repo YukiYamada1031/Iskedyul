@@ -13,6 +13,12 @@ require_once('db.php');
   <title>Document</title>
 </head>
 <body>
-  <p>菊池柚花</p>
+  <div class='flex-index'>
+    <div class='nav'></div>
+
+    <div class='index'></div>
+
+    <div class='mypage'><</div>
+  </div>
 </body>
 </html>
