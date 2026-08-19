@@ -14,11 +14,30 @@ require_once('db.php');
 </head>
 <body>
   <div class='flex-index'>
-    <div class='nav'></div>
+    <div class='left-block'>
+      <nav>
+        <h2></h2>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+      </nav>
 
-    <div class='index'></div>
+      <div class='image'>
+        <img src='img/top.png'>
+      </div>
 
-    <div class='mypage'><</div>
+      <p class='message'>
+        毎日の小さな積み重ねが<br>
+        大きな成果につながります。
+      </p>
+
+      <a href='./record.php'>今日のTodoを追加</a>
+    </div>
+
+    <div class='center-block'></div>
+
+    <div class='right-block'><</div>
   </div>
 </body>
 </html>
