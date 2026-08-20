@@ -35,9 +35,22 @@ require_once('db.php');
       <a href='./record.php'>今日のTodoを追加</a>
     </div>
 
-    <div class='center-block'></div>
+    <div class='center-block'>
+      <h2>一覧</h2>
+      <div class='wrapper'></div>
+      <div class='index'></div>
+    </div>
 
-    <div class='right-block'><</div>
+    <div class='right-block'>
+      <div class='mypage'></div>
+      <div class='situation'></div>
+      <div class='sonota'>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+      </div>
+    </div>
   </div>
 </body>
 </html>
