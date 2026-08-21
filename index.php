@@ -45,10 +45,10 @@ require_once('db.php');
       <div class='mypage'></div>
       <div class='situation'></div>
       <div class='sonota'>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
+        <li><a>通知設定</a></li>
+        <li><a>アプリに関して</a></li>
+        <li><a>ヘルプ</a></li>
+        <li><a>ログアウト</a></li>
       </div>
     </div>
   </div>
