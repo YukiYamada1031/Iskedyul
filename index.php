@@ -44,6 +44,12 @@ require_once('db.php');
     <div class='right-block'>
       <div class='mypage'></div>
       <div class='situation'></div>
+      <div class='flex-situation'>
+        <div class='item'></div>
+        <div class='item'></div>
+        <div class='item'></div>
+        <div class='item'></div>
+      </div>
       <div class='sonota'>
         <li><a>通知設定</a></li>
         <li><a>アプリに関して</a></li>
